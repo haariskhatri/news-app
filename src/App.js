@@ -1,6 +1,10 @@
 //images import
 import logo from "./images/logo.svg";
 import news1 from "./images/news1.png";
+import news2 from "./images/news2.png";
+import news3 from "./images/news3.png";
+import news4 from "./images/news4.png";
+
 import branding from "./images/branding.svg";
 import footer from "./images/footer.svg";
 
@@ -103,26 +107,69 @@ function App() {
                       </div>
                     </div>
                   </SwiperSlide>
+
                   <SwiperSlide>
                     <div className="news-card">
                       <div className="news-content">
                         <h2>
-                          {" "}
-                          ChatGPT has Google 'worried' about its Search business
-                          and more, here's why{" "}
+                          PhonePe is no longer Flipkart company: Why the
+                          separation and what it means
                         </h2>
                         <p>
-                          Google has the technology it needs to fight ChatGPT.
-                          But why is it not implementing it? Well, there are
-                          some underlying issues, mainly with how the machine
-                          learning model works and Google’s business model,
-                          reveals a Google executive and voice memos, as heard
-                          by the New York Times.
+                          Flipkart and PhonePe are separating their businesses
+                          and will operate independently. PhonePe was acquired
+                          by Flipkart in 2016 and both companies are owned by
+                          Walmart. The separation will allow both companies to
+                          pursue their own growth strategies.
                         </p>
                       </div>
 
                       <div className="news-image">
-                        <img src={news1} className="img-fluid"></img>
+                        <img src={news2} className="img-fluid"></img>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide>
+                    <div className="news-card">
+                      <div className="news-content">
+                        <h2>
+                          North Korea-backed hackers have stolen $1.2 billion of
+                          virtual goods: Report
+                        </h2>
+                        <p>
+                          South Korea’s spy agency and cybersecurity experts
+                          have recently accused cybercriminals working for the
+                          North Korean government of stealing virtual assets
+                          worth 1.5 trillion won ($1.2 billion) in the past
+                          three years.
+                        </p>
+                      </div>
+
+                      <div className="news-image">
+                        <img src={news3} className="img-fluid"></img>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide>
+                    <div className="news-card">
+                      <div className="news-content">
+                        <h2>
+                          Samsung rolls out One UI 5 update to these Galaxy M, F
+                          series smartphones
+                        </h2>
+                        <p>
+                          The One UI 5.0 update is currently available for the
+                          Galaxy M53, Galaxy M52 5G, Galaxy M33, Galaxy M32 5G,
+                          Galaxy M32, and Galaxy M13 5G, and it will soon be
+                          made available for additional smartphones from the
+                          Galaxy M and Galaxy F series.
+                        </p>
+                      </div>
+
+                      <div className="news-image">
+                        <img src={news4} className="img-fluid"></img>
                       </div>
                     </div>
                   </SwiperSlide>
