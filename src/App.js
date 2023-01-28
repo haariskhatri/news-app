@@ -56,8 +56,8 @@ function App() {
         </div>
 
         <div className="menu-right">
-          <a href="/">Sign Up</a>
-          <a href="/" className="active">
+          <a href="https://anonymous-auth.auth.ap-south-1.amazoncognito.com/signup?client_id=7cqsa05unkn0c8hh28emu7cknc&response_type=code&scope=email+openid+phone&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Flogged_in.html">Sign Up</a>
+          <a href="https://anonymous-auth.auth.ap-south-1.amazoncognito.com/login?client_id=7cqsa05unkn0c8hh28emu7cknc&response_type=code&scope=email+openid+phone&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Flogged_in.html" className="active">
             Sign In
           </a>
         </div>
